@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*token*
+
+# Evaluation output
+runs/
+logs/
+artifacts/
+jobs/
+evidence/
+evidence-*/
+*.log
+*.zip
+
+# Do not copy private benchmark/task material into this public repo
+/tasks/
+/specs/
+/rubrics/
+/authoring/
+/Task_Ready_To_Submit/
+/trajectories/
+/oracle-nop-evidence/
+/regrade-*/
+/audit_*/
+/private/
+/internal/
+/original-workflow/
+
+# Conservative guards for the uploaded private-workflow layout
+/MASTER_CHECKLIST_TB4.0.md
+/TB4_CAPABILITY_HARDENING_RULES.md
+/TASK_PROPOSAL_RUBRIC.md
+/workflow-prompts.md
+/prompts/
+/docs/portal/
+/docs/prompts-for-others/
+/docs/reference/stb-full-fidelity-kit/
+/.cursor/rules/
+/.cursor/skills/
+/tools/final-tb4-audit-master/
+
+# Common task internals that should not be published from real work
+**/solution/
+**/golden.patch
+**/golden_patch.*
+**/rubric_score.txt
+**/ctrf.json
+**/raw_api*.json*
+**/agent*.log
+**/trajectory*.json*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

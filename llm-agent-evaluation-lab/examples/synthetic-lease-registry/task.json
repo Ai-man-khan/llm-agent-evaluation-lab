@@ -1,0 +1,8 @@
+{
+  "name": "synthetic-lease-registry",
+  "language": "python",
+  "runtime": "python>=3.11",
+  "candidate_entrypoint": "workspace/lease_registry.py",
+  "grader": "grader/test_lease_registry.py",
+  "purpose": "Public-safe demonstration of stateful coding-agent evaluation"
+}

@@ -1,0 +1,10 @@
+[project]
+name = "llm-agent-evaluation-lab"
+version = "0.1.0"
+description = "Clean-room demonstration of terminal-based coding-agent evaluation"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Mohammed Aiman Khan" }]
+
+[project.scripts]
+agent-eval = "evaluator.cli:main"
